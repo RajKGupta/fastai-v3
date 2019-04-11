@@ -9,7 +9,7 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://www.dropbox.com/s/ilmvikzm4u6k5wi/export.pkl?dl=0'
+export_file_url = 'https://www.dropbox.com/s/ilmvikzm4u6k5wi/export.pkl?raw=1'
 export_file_name = 'export.pkl'
 
 classes = ['apple_pie',
