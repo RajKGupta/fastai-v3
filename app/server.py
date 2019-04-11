@@ -9,10 +9,28 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+export_file_url = 'https://www.dropbox.com/s/ilmvikzm4u6k5wi/export.pkl?dl=0'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['apple_pie',
+ 'baby_back_ribs',
+ 'breakfast_burrito',
+ 'carrot_cake',
+ 'cheesecake',
+ 'chicken_wings',
+ 'chocolate_cake',
+ 'french_fries',
+ 'grilled_cheese_sandwich',
+ 'hot_dog',
+ 'macaroni_and_cheese',
+ 'omelette',
+ 'pancakes',
+ 'pizza',
+ 'samosa',
+ 'spring_rolls',
+ 'tacos',
+ 'waffles']
+
 path = Path(__file__).parent
 
 app = Starlette()
