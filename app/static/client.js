@@ -25,10 +25,15 @@ function analyze() {
         if (this.readyState === 4) {
             var response = JSON.parse(e.target.responseText);
             el('result-label').innerHTML = `Result = ${response['result']}`;
-            if( response['result'] == 'samose' )
+            if( response['result'] == 'samosa' )
             {
                 el('link-label').innerHTML = '/samosa.html';
             }
+            else
+            {
+                 el('link-label').innerHTML = '/kbjhb.html';
+            }
+            
         }
         el('analyze-button').innerHTML = 'Analyze';
     }
