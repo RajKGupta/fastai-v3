@@ -29,9 +29,13 @@ function analyze() {
             {
                 el('link-label').innerHTML = '/samosa.html';
             }
-            else
+            else if( response['result'] == 'french_fries' )
             {
-                 el('link-label').innerHTML = '/kbjhb.html';
+                el('link-label').innerHTML = '/frenchfries.html';
+            }
+            else 
+            {
+                el('link-label').innerHTML = '/couldntfind.html';
             }
             
         }
