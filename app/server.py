@@ -76,7 +76,7 @@ async def analyze(request):
     return JSONResponse({'result': str(prediction)})
 
    
-@app.route('/analyze1?q={params}', methods=['POST'])
+@app.route('/analyze1', methods=['POST'])
 async def analyze(request):
     return JSONResponse({'result': str("hello")})
 
