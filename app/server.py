@@ -78,7 +78,7 @@ async def analyze(request):
    
 @app.route('/analyze1', methods=['GET'])
 async def analyze(request):
-    link = request.args.get('query', '')
+    link = request.args.get(‘q’)
     return JSONResponse({'result': str(link)})
 
 """
