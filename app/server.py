@@ -67,6 +67,11 @@ def index(request):
     html = path/'view'/'index.html'
     return HTMLResponse(html.open().read())
 
+@app.route('/samosa')
+def index(request):
+    html = path/'view'/'samosa.html'
+    return HTMLResponse(html.open().read())
+  
 @app.route('/analyze', methods=['POST'])
 async def analyze(request):
     data = await request.form()
